@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+	background-color: #000;
+}
+
+.navigation {
+	width: calc(100% - 20px);
+	height: 40px;
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	position: fixed;
+}
+
+.navigation li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.navigation img {
+	height: 74px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+a {
+	border-radius: 5px;
+	padding: 8px 18px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.current-page {
+	border-radius: 15px;
+	padding: 8px 18px;
+	background-color: #054b16;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.legal-bussines-flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 50px;
+}
+
+.legal-bussines-text {
+	flex: 1;
+}
+
+.legal-bussines-text p {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.legal-bussines-image {
+	float: right;
+	flex: 2;
+}
+
+.legal-bussines-image img {
+	width: 80%;
+	height: 100%;
+
+	margin: 50px;
+	float: right;
+	border-radius: 10%;
+}
+
+.midden {
+	background-color: #054b16;
+	width: 90%;
+	height: 100%;
+	padding-bottom: 100px;
+	color: #054b16;
+	padding-left: 10%;
+	padding-top: 30px;
+}
+
+.image-slider {
+	margin: 0px 0 0 0px;
+	width: 95%;
+	height: 450px;
+	display: flex;
+	gap: 10px;
+	background-color: #054b16;
+	padding-top: 10px;
+}
+
+.image-slider p {
+	justify-content: end;
+}
+
+h1 {
+	justify-content: center;
+	color: #fff;
+}
+
+.image-slider img {
+	width: 10%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 4px solid black;
+	transition: all ease-in-out 0.5s;
+	justify-content: start;
+}
+
+.image-slider img:hover {
+	width: 25%;
+}
+
+.wrapper2 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.illegal-bussines-flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 50px;
+}
+
+.illegal-bussines-image {
+	flex: 1;
+}
+.illegal-bussines-image img {
+	width: 80%;
+	height: 100%;
+	margin: 50px;
+	float: left;
+	border-radius: 10%;
+}
+
+.illegal-bussines-text {
+	flex: 2;
+	float: right;
+}
+
+.illegal-bussines-text p {
+	font-size: 16px;
+	display: inline-block;
+}
