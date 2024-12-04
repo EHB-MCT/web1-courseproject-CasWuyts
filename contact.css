@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	color: #fff;
 	font-family: "Roboto", sans-serif;
-	background-color: red;
+	background-color: black;
 }
 
 .navigation {
@@ -42,9 +42,43 @@ a {
 }
 
 .wrapper {
-	width: 0 auto;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+	align-items: center;
 }
 
-.wrapper img {
+.driving-flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 50px;
+}
+
+.driving-flex div {
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.driving-image {
+	flex: 1;
+	float: left;
+}
+
+.driving-image img {
 	width: 100%;
+	height: 100%;
+	border-radius: 10%;
+}
+
+.driving-text {
+	flex: 2;
+	float: right;
+	padding-left: 50px;
+	margin-left: 50px;
+}
+
+.driving-text p {
+	font-size: 16px;
+	display: inline-block;
 }
